@@ -40,7 +40,6 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
-
         //Dependendo da opção escolhida vai executar funções de conversão diferentes
         if option == 1 {
             fahrenheit_to_celsius(temperature);
@@ -54,7 +53,6 @@ fn main() {
 
         println!("Thank you for using this tool!");
         break
-
     }
 
 
